@@ -1,0 +1,16 @@
+#이름 변경이 불가능한 아이템 목록
+BannedItem:
+- "DIAMOND_PICKAXE"
+- "GOLDEN_PICKAXE"
+- "IRON_PICKAXE"
+- "STONE_PICKAXE"
+- "WOODEN_PICKAXE"
+#아이템 이름 변경 가격
+price: 6000
+
+BannedMsg: '&eServer &7>> &c해당 아이템은 이름변경이 불가능합니다.'
+PermDeny: '&eServer &7>> &c권한이 없습니다.'
+NoMoney: '&eServer &7>> &c충분한 돈이 없습니다. 부족한 돈: %price%원'
+NoItem: '&eServer &7>> &c손에 아이템을 들고 있어야 합니다.'
+NoColorCode: '&eServer &7>> &a"&" 문자는 사용이 불가능합니다.'
+Done: '&eServer &7>> &f%price%원을 사용해 아이템 이름을 변경 하였습니다.'
