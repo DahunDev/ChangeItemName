@@ -1,0 +1,16 @@
+name: UserItemName
+main: com.Daniel.changeItemName.main.UserItemName
+version: 1.0
+author: KitePro
+softdepend: [Vault]
+
+commands:
+  아이템이름변경:
+    description: 아이템 이름 변경
+    aliases: [이름변경]
+    permission: UserItemName.change
+    permission-message: '&eItemName  &7>> &c권한이 없습니다.'
+  아이템이름변경리로드:
+    aliases: [이름변경리로드]
+    permission: UserItemName.reload
+    permission-message: '&eItemName  &7>> &c권한이 없습니다.'
